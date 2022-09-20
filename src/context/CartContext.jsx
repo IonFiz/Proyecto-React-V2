@@ -1,9 +1,15 @@
-import React, { Children } from 'react';
+import React from 'react';
 export const CartContext = React.createContext([]);
 
-const CartProvider = () =>{
+const CartProvider = ({ children }) =>{
+
+
+
+
+
+
     return (
-        <CartContext.Provider value={Nexus}>
+        <CartContext.Provider value='Nexus'>
             {children}
         </CartContext.Provider>
     )
