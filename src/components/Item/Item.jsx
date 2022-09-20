@@ -2,7 +2,7 @@ import './style.css';
 
 import { Link } from 'react-router-dom';
 import React, {useContext} from 'react';
-import { CartContext } from '../../App';
+import { CartContext } from '../../context/CartContext';
 
 const Item = ({info}) => {
 
