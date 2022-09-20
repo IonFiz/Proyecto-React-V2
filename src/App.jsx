@@ -8,7 +8,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import NavBar from './components/NavBar/NavBar';
 
 
-export const CartContext = React.createContext('');
+export const CartContext = React.createContext([]);
 
 function App() {
   return (
