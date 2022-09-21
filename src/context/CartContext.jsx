@@ -39,7 +39,9 @@ const CartProvider = ({ children }) =>{
             clearCart,
             isInCart,
             removeProduct,
-            addProduct
+            addProduct,
+            totalPrice,
+            totalProducts
         }}>
             {children}
         </CartContext.Provider>
