@@ -16,13 +16,13 @@ export const NavBar = () =>{
                 </div>
                     <ul classname="nav_list">
                     <li>
-                    <NavLink className="nav_link" to='/categoria/CDJ'>CDJ</NavLink>
+                    <NavLink className="nav_link" to='/category/CDJ'>CDJ</NavLink>
                     </li>
                     <li>
-                    <NavLink className="nav_link" to='/categoria/Mixers'>Mixers</NavLink>
+                    <NavLink className="nav_link" to='/category/Mixers'>Mixers</NavLink>
                     </li>
                     <li>
-                    <NavLink className="nav_link" to='/categoria/Parlantes'>Parlantes</NavLink>
+                    <NavLink className="nav_link" to='/category/Parlantes'>Parlantes</NavLink>
                     </li>
                     <li>
                     <NavLink className="nav_link" to='cart'>Cart</NavLink>
