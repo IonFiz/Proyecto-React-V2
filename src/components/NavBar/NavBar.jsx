@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from '../../logo.svg';
+import logo from '../assets/img/logov2.png'
 import './styles.css';
 import CartWidget from "../CartWidget/CartWidget";
 import { NavLink } from 'react-router-dom';
@@ -11,8 +11,8 @@ export const NavBar = () =>{
         <div classname="navBar-container">
             <nav className="nav">
                 <div className="nav_brand">
-                    <NavLink className="nav_link" to='/'>NexusBroRental</NavLink>
-                        <img width={'100px'} src={logo} alt="logo" />
+                        <img width={'75px'} src={logo} alt="logo" />
+                        <NavLink className="nav_link" to='/'></NavLink>
                 </div>
                     <ul classname="nav_list">
                     <li>
