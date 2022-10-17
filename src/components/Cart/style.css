@@ -1,0 +1,23 @@
+.bodycart{
+    height: 800px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(http://gluckrental.com/img/banner/banner-2.jpg);
+    
+}
+
+.bodycart p{
+    color: white;
+    padding-top: 400px;
+    font-size: 50px;
+}
+
+.bodycart a{
+    color: white;
+    padding-top: 400px;
+    font-size: 50px;
+}
+
+

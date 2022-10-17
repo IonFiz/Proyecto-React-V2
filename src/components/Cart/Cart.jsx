@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../../context/CartContext';
 import ItemCart from '../ItemCart/ItemCart';
+import './style.css';
  
 const Cart = () => {
   const { cart, totalPrice } = useCartContext();
@@ -29,8 +30,12 @@ const Cart = () => {
   if (cart.length === 0){
     return (
       <>
-      <p>Carrito Vacio!</p>
-      <Link to='/'>Hacer Compras</Link>
+      <div className='bodycart'>
+      <p>Tu carrito esta vacío!</p>
+      <Link to='/'>¡Haz clic aquí para comprar algo!</Link>
+     
+      </div>
+      
       </>
     );
   }
