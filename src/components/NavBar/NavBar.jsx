@@ -11,8 +11,8 @@ export const NavBar = () =>{
         <div classname="navBar-container">
             <nav className="nav">
                 <div className="nav_brand">
-                        <img width={'75px'} src={logo} alt="logo" />
-                        <NavLink className="nav_link" to='/'></NavLink>
+                        
+                        <NavLink className="nav_link" to='/'><img width={'75px'} src={logo} alt="logo" /></NavLink>
                 </div>
                     <ul classname="nav_list">
                     <li>

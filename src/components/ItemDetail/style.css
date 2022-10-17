@@ -23,6 +23,14 @@
 
 .content {
     width: 100%;
+    padding: 30px;
+    
+}
+
+.content h1{
+    color: red;
+    font-size: 40px;
+    padding: 15px;
 }
 
 @media screen and (min-width:768px){
